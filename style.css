@@ -1,0 +1,111 @@
+
+
+.daa {
+    height: 500px;
+}
+.prob{
+    color:green !important;
+}
+.flow-text{
+    color: white;
+}
+
+.head{
+    color:green !important;
+}
+
+#home{
+  background-color: black;
+  padding-top: 50px;
+}
+   .para{
+    text-align: justify !important;
+     hyphens: auto;
+   }
+
+   * {
+    font-family: "Zilla Slab", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+    .fish, b{
+       font-size: 15px; 
+       font-weight: bold;
+   }
+
+   
+   li>a:hover{
+       color: white;
+   }
+   div .hoverable{
+       height: 350px !important;
+     }
+   
+
+   
+   #body{
+       font-weight: 400;
+       font-style: normal;
+   }
+   
+   @media (min-width: 1367px) {
+      div .big{
+           padding-top: 150px !important; 
+           
+       }
+       div .big p{
+           font-size: 17px;
+       }
+       .head{
+           font-size: 35px;
+           color:green;
+       }
+
+       
+   }
+   
+   @media (max-width: 1366px){
+   
+       .head{
+           font-size: 30px;
+           padding-top: 90px !important; 
+           color:green;
+           padding-left:65px;
+       }
+       div .big p{
+           font-size: 20px;
+           text-align: center;
+       }
+       .pa{
+        padding-left:60px;
+       }
+   }
+   
+
+
+   @media only screen and (min-width: 993px) {
+    .row .col.push-l2 {
+        left:  29.666667%;
+    }
+}
+
+.sidenav{
+    background-color: green !important;
+    color: white;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.tabs .tab a {
+    color: black;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+    color: green !important;
+}
+.tabs .indicator {
+    background-color: green;
+}
